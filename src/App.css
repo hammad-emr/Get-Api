@@ -1,0 +1,23 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+
+} */
+h1 {
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+}
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+}
+.card {
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+  border: 1px solid #888;
+}
+
